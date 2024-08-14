@@ -1,0 +1,9 @@
+class Test5{
+public static void main(String[] args){
+int arr[][] ={{1,2,3},{4,5}};
+int cln[][]=arr.clone();
+System.out.println(arr == cln);
+System.out.println(arr[0]==cln[0]);
+System.out.println(arr[1]==cln[1]);
+}
+}
